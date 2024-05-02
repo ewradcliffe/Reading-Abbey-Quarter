@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
 /* Asterisk wildcard selector to override browser default styles */
 * {
     padding: 0;
@@ -12,12 +15,25 @@ body {
     flex-direction: column;
     /* Project styles */
     background-color: rgb(255, 255, 167);
+    font-family: "Lora", serif;
 }
 
 /* Header */
 header {
     background-color: rgb(98, 250, 98);
 }
+
+/* Logo styling */
+#logo {
+    font-family: "Allison", cursive;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-start;
+    margin: 2%;
+}
+}
+
+
 /* Main content */
 main {
      /* Enlarge main element to push footer down*/
