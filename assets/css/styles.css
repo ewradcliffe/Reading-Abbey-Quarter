@@ -21,6 +21,9 @@ body {
 /* Header */
 header {
     background-color: rgb(98, 250, 98);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
 }
 
 /* Logo styling */
@@ -87,6 +90,8 @@ main {
     padding: 2%;
     z-index: 1;
 }
+
+/* Timeline bar*/
 .timeline::after {
     content: '';
     position: absolute;
@@ -102,6 +107,10 @@ main {
 /* Footer */
 footer {
     background-color: rgb(98, 250, 98);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    bottom: 0;
 }
 
 /* Links to external websites */
