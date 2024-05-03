@@ -44,11 +44,29 @@ header {
 
 #menu {
     display: none;
+    list-style-type: none;
+    text-decoration: none;
+    position: absolute;
+    background-color: rgb(98, 250, 98);
 }
 
-#toggle-switch:checked ~ nav {
+
+#menu > li {
+    text-decoration: none;
+}
+
+/* Psuedo class to open and close menu */
+#toggle-switch:checked ~ #menu {
     display: block;
 }
+
+/* fix menu bars in position */
+.fa-bars {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
+
 
 /* Main content */
 main {
