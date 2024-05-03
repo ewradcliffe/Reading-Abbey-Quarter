@@ -78,30 +78,41 @@ main {
     flex-direction: column;
 }
 
+/* Added to push page down after Header fixed in place for scrolling */
+.page-push {
+    margin-top: 12%;
+}
+
+/* Timeline Page */
+
 /* Timeline Stylings*/
 
 /* Timeline box*/
-.timeline-container-left, .timeline-container-right {
+.timeline-container-left,
+.timeline-container-right {
     background-color: rgb(98, 250, 98);
     position: relative;
-    text-align:center;
-    max-width:70%;
+    text-align: center;
+    max-width: 70%;
     margin: 15%;
     padding: 2%;
     z-index: 1;
 }
 
 /* Timeline bar*/
+.timeline {
+    position: relative;
+}
+
 .timeline::after {
     content: '';
     position: absolute;
     width: 6px;
     background-color: rgb(98, 250, 98);
-    top: 25%;
-    bottom: 15%;
+    top: 0;
+    bottom: 0;
     left: 50%;
     margin-left: -3px;
-    z-index: 0;
 }
 
 /* Footer */
@@ -137,6 +148,7 @@ footer {
         justify-content: flex-end;
 
     }
+
     #fa-bars {
         display: none;
     }
