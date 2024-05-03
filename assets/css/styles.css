@@ -50,32 +50,31 @@ header {
     background-color: rgb(98, 250, 98);
 }
 
-
-#menu > li {
+#menu>li {
     text-decoration: none;
 }
 
 /* Psuedo class to open and close menu */
-#toggle-switch:checked ~ #menu {
+#toggle-switch:checked~#menu {
     display: block;
 }
 
 /* fix menu bars in position */
-.fa-bars {
+#fa-bars {
     position: fixed;
     top: 1rem;
     right: 1rem;
 }
 
-
 /* Main content */
 main {
-     /* Enlarge main element to push footer down*/
-     flex: 1 0 auto;
-     /* Enable flex properties for child elements */
-     display: flex;
-     flex-direction: column;
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
+
 /* Footer */
 footer {
     background-color: rgb(98, 250, 98);
@@ -87,4 +86,26 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
     text-decoration: none;
+}
+
+/* Media Queries*/
+/*Tablets and up (768px+)*/
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    /* Menu */
+    #menu-block {
+        align-items: flex-end;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    #fa-bars {
+        display: none;
+    }
+
 }
