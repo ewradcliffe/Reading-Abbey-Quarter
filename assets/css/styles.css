@@ -75,6 +75,30 @@ main {
     flex-direction: column;
 }
 
+/* Timeline Stylings*/
+
+/* Timeline box*/
+.timeline-container-left, .timeline-container-right {
+    background-color: rgb(98, 250, 98);
+    position: relative;
+    text-align:center;
+    max-width:70%;
+    margin: 15%;
+    padding: 2%;
+    z-index: 1;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: rgb(98, 250, 98);
+    top: 25%;
+    bottom: 15%;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 0;
+}
+
 /* Footer */
 footer {
     background-color: rgb(98, 250, 98);
