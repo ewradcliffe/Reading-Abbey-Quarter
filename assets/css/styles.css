@@ -153,4 +153,21 @@ footer {
         display: none;
     }
 
+    /* Adjusting alignment of timeline entries to alternate left/right */
+
+    .timeline-container-left {
+        max-width: 35%;
+        margin-left: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .timeline-container-right {
+        max-width: 35%;
+        margin-left: 55%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-right: 10%;
+    }
+
 }
