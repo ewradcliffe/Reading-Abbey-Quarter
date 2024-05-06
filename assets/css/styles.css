@@ -115,6 +115,14 @@ main {
     margin-left: -3px;
 }
 
+/* Content of timeline boxes */
+.timeline-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
 /* Footer */
 footer {
     background-color: rgb(98, 250, 98);
