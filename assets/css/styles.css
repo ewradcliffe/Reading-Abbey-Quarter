@@ -162,12 +162,17 @@ footer {
     #menu {
         display: flex;
         justify-content: flex-end;
-
+        
     }
 
     #fa-bars {
         display: none;
     }
+
+    #menu > li {
+        text-align: center;
+        border-style: none;
+        margin: 0% 5%;
 
     /* Adjusting alignment of timeline entries to alternate left/right */
 
