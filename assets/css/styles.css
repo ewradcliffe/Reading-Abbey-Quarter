@@ -21,16 +21,17 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(98, 250, 98);
+    background-color: rgb(0, 58, 0);
     position: fixed;
     width: 100%;
     z-index: 99;
+    box-shadow: 0 2px 2px;
 }
 
 /* Logo styling */
 #logo {
     font-family: "Allison", cursive;
-    font-size: x-large;
+    font-size: 250%;
     display: flex;
     justify-content: flex-start;
     margin: 2%;
@@ -48,16 +49,20 @@ header {
 
 #menu {
     display: none;
+    position: absolute;
+    background-color: rgb(0, 58, 0);
+    font-size: 250%;
+    width: 60%;
+}
+
+#menu > li {
+    text-align: center;
+    border-style: ridge;
+    border-color: black;
     list-style-type: none;
     text-decoration: none;
-    position: absolute;
-    background-color: rgb(98, 250, 98);
-}
 
-#menu>li {
-    text-decoration: none;
 }
-
 /* Psuedo class to open and close menu */
 #toggle-switch:checked~#menu {
     display: block;
@@ -66,8 +71,9 @@ header {
 /* fix menu bars in position */
 #fa-bars {
     position: fixed;
-    top: 1rem;
+    top: 0.5rem;
     right: 1rem;
+    font-size: 250%
 }
 
 /* Main content */
@@ -81,7 +87,7 @@ main {
 
 /* Added to push page down after Header fixed in place for scrolling */
 .page-push {
-    margin-top: 12%;
+    margin-top: 15%;
 }
 
 /* Timeline Page */
@@ -126,11 +132,12 @@ main {
 
 /* Footer */
 footer {
-    background-color: rgb(98, 250, 98);
+    background-color: rgb(0, 58, 0);
     position: fixed;
     width: 100%;
     z-index: 99;
     bottom: 0;
+    box-shadow: 2px 0px 2px;
 }
 
 /* Links to external websites */
