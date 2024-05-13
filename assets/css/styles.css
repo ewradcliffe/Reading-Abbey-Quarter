@@ -183,6 +183,7 @@ footer {
         text-align: center;
         border-style: none;
         margin: 0% 5%;
+    }
 
     /* Adjusting alignment of timeline entries to alternate left/right */
 
@@ -210,9 +211,10 @@ footer {
         width: 0;
         z-index: 1;
         left: 100%;
-        border: medium solid rgb(98, 250, 98);
+        border: medium solid rgb(0, 58, 0);
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent rgb(98, 250, 98);
+        border-color: transparent transparent transparent silver;
+        filter: drop-shadow(0 3px 2px #3a3a3a);
     }
 
     .timeline-container-right::before {
@@ -223,9 +225,10 @@ footer {
         width: 0;
         z-index: 1;
         right: 100%;
-        border: medium solid rgb(98, 250, 98);
+        border: medium solid rgb(0, 58, 0);
         border-width: 10px 10px 10px 0;
-        border-color: transparent rgb(98, 250, 98) transparent transparent;
+        border-color: transparent silver transparent transparent;
+        filter: drop-shadow(0 3px 2px #3a3a3a);
     }
 
 }
