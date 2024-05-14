@@ -38,6 +38,7 @@ header {
 #logo {
     font-family: "Allison", cursive;
     font-size: 250%;
+    color: silver;
     display: flex;
     justify-content: flex-start;
     margin: 2%;
