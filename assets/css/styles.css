@@ -67,8 +67,17 @@ header {
     border-color: black;
     list-style-type: none;
     text-decoration: none;
-
 }
+
+#menu > li:hover {
+    background-color: green;
+}
+
+#menu > li > a {
+    text-decoration: none;
+    color: silver;
+}
+
 /* Psuedo class to open and close menu */
 #toggle-switch:checked~#menu {
     display: block;
