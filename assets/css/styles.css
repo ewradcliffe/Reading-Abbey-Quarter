@@ -239,4 +239,17 @@ footer {
         filter: drop-shadow(0 3px 2px #3a3a3a);
     }
 
+    /*Gallery Page*/
+    #gallery {
+        column-count: 3;
+        column-gap: 0;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    /*Gallery Page*/
+    #gallery {
+        column-count: 4;
+    }
 }
