@@ -31,11 +31,6 @@ header {
     box-shadow: 0 2px 2px;
 }
 
-/* Added to push page down after Header fixed in place for scrolling */
-.page-push {
-    margin-top: 15%;
-}
-
 /* Logo styling */
 #logo {
     font-family: "Allison", cursive;
@@ -193,10 +188,6 @@ footer {
 
     /* Header */
 
-    /* Added to push page down after Header fixed in place for scrolling */
-    .page-push {
-         margin-top: 10%;
-    }
     /* Menu */
     #menu-block {
         align-items: flex-end;
@@ -276,10 +267,5 @@ footer {
     /*Gallery Page*/
     #gallery {
         column-count: 4;
-    }
-
-    /* Added to push page down after Header fixed in place for scrolling */
-    .page-push {
-        margin-top: 7.5%;
     }
 }
