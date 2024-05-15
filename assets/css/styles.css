@@ -52,6 +52,7 @@ header {
 #toggle-switch {
     display: none;
 }
+
 /* Menu stylings */
 #menu {
     display: none;
@@ -61,7 +62,7 @@ header {
     width: 60%;
 }
 
-#menu > li {
+#menu>li {
     text-align: center;
     border-style: ridge;
     border-color: black;
@@ -69,11 +70,11 @@ header {
     text-decoration: none;
 }
 
-#menu > li:hover {
+#menu>li:hover {
     background-color: green;
 }
 
-#menu > li > a {
+#menu>li>a {
     text-decoration: none;
     color: silver;
 }
@@ -151,7 +152,8 @@ main {
 }
 
 /*Gallery Page*/
-.gallery-entry, .gallery-entry > img {
+.gallery-entry,
+.gallery-entry>img {
     max-width: 100%;
     border-style: solid;
     border-color: black;
@@ -163,9 +165,10 @@ main {
     padding: 5% 3%;
 }
 
-#tour-description > p {
+#tour-description>p {
     margin: 5% 0;
 }
+
 #tour-headline {
     text-align: center;
 }
@@ -177,10 +180,13 @@ fieldset {
     padding: 2%;
 }
 
-fieldset, div {
+fieldset,
+div {
     margin: 2% 0%;
 }
-table, td {
+
+table,
+td {
     width: 100%;
     text-align: center;
     border-style: solid;
@@ -206,7 +212,8 @@ footer {
     list-style-type: none;
 }
 
-#visit-links > li, a {
+#visit-links>li,
+a {
     text-decoration: none;
     color: silver;
 }
@@ -226,14 +233,14 @@ footer {
     #menu {
         display: flex;
         justify-content: flex-end;
-        
+
     }
 
     #fa-bars {
         display: none;
     }
 
-    #menu > li {
+    #menu>li {
         text-align: center;
         border-style: none;
         margin: 0% 5%;
@@ -290,10 +297,28 @@ footer {
         column-count: 3;
         column-gap: 0;
     }
+
+    /*Tours page*/
+
+    #tour-description > p {
+        margin: 5%;
+        font-size: 130%;
+    }
+
+    #tour-headline {
+        font-size: 200%;
+    }
+
+    /*Tour signup form*/
+    form {
+        font-size: 130%;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
     /*Gallery Page*/
     #gallery {
         column-count: 4;
