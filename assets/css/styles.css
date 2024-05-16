@@ -344,8 +344,9 @@ a {
 
     /*Tours page*/
 
-    #tour-description>p {
-        margin: 5%;
+    #tour-description > p {
+        padding: 0%;
+        margin: 3% 0%;
         font-size: 130%;
     }
 
