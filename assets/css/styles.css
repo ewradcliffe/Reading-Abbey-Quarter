@@ -152,12 +152,16 @@ main {
 }
 
 /*Gallery Page*/
-.gallery-entry,
-.gallery-entry>img {
+
+.gallery-entry, .gallery-entry > img {
     max-width: 100%;
     border-style: solid;
     border-color: black;
-    border-width: thin;
+    border-width: thin
+}
+
+.gallery-entry > h3, p {
+    padding: 2%;
 }
 
 /*Tours page*/
@@ -175,15 +179,6 @@ main {
 
 /*Tour signup form*/
 
-fieldset {
-    margin: 0 5%;
-    padding: 2%;
-}
-
-fieldset,
-div {
-    margin: 2% 0%;
-}
 
 table,
 td {
