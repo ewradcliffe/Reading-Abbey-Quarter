@@ -115,14 +115,13 @@ main {
     border-style: solid;
     border-color: silver;
     border-width: thin;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 0 3px 2px #3a3a3a;
 }
 
-#timeline-head > h3 {
+#timeline-head>h3 {
     color: silver;
 }
-
 
 /* Timeline Stylings*/
 
@@ -139,7 +138,7 @@ main {
     border-style: solid;
     border-color: silver;
     border-width: thin;
-    border-radius: 5%;
+    border-radius: 10px;
     box-shadow: 0 3px 2px #3a3a3a;
 }
 
@@ -164,23 +163,27 @@ main {
 
 /* Content of timeline boxes */
 .timeline-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     text-align: left;
     color: silver;
 }
 
+.timeline-content>h3 {
+    text-align: center;
+    padding: 2%;
+}
+
 /*Gallery Page*/
 
-.gallery-entry, .gallery-entry > img {
+.gallery-entry,
+.gallery-entry>img {
     max-width: 100%;
     border-style: solid;
     border-color: black;
     border-width: thin
 }
 
-.gallery-entry > h3, p {
+.gallery-entry>h3,
+p {
     padding: 2%;
 }
 
@@ -268,6 +271,7 @@ a {
         margin-left: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
+        padding: 3%;
     }
 
     .timeline-container-right {
@@ -276,6 +280,17 @@ a {
         margin-top: 5%;
         margin-bottom: 5%;
         margin-right: 10%;
+        padding: 3%;
+    }
+
+    .timeline-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;;
+    }
+
+    .timeline-content > h3 {
+        text-align: left;
     }
 
     /* Add arrows pointing to timeline */
@@ -315,7 +330,7 @@ a {
 
     /*Tours page*/
 
-    #tour-description > p {
+    #tour-description>p {
         margin: 5%;
         font-size: 130%;
     }
