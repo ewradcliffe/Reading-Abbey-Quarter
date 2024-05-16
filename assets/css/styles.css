@@ -182,6 +182,7 @@ main {
     border-width: thin
 }
 
+
 .gallery-entry>h3,
 p {
     padding: 2%;
@@ -336,9 +337,13 @@ a {
     }
 
     /*Gallery Page*/
+    .gallery-entry, .gallery-entry > img {
+        flex: 0 0 33%;
+    }   
+
     #gallery {
-        column-count: 3;
-        column-gap: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /*Tours page*/
@@ -364,7 +369,7 @@ a {
 @media screen and (min-width: 992px) {
 
     /*Gallery Page*/
-    #gallery {
-        column-count: 4;
-    }
+    .gallery-entry, .gallery-entry > img {
+        flex: 0 0 25%;
+    }   
 }
