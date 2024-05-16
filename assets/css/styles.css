@@ -372,4 +372,9 @@ a {
     .gallery-entry, .gallery-entry > img {
         flex: 0 0 25%;
     }   
+        
+    /*Footer*/
+    footer {
+        padding: 1% 0%;
+    }
 }
