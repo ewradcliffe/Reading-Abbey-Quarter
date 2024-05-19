@@ -212,9 +212,12 @@ p {
     padding: 2%;
 }
 
+table {
+    width: 100%;
+}
+
 table,
 td {
-    width: 100%;
     text-align: center;
     border-style: solid;
     border-color: black;
