@@ -1,112 +1,57 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Reading Abbey Quarter
 
-Welcome Ed Radcliffe,
+The aim of this website is to provide information for people who are visiting Reading Abbey Quarter, an area filled with historical interest in the heart of Reading, UK. The site intends to target both people who are specifically interested in aspects of the history of Reading and casual visitors who may be curious about something they may come across. It will provide photographic and textual information so people can match objects and locations with historical events. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+According to [Historic England](https://historicengland.org.uk/research/heritage-counts/heritage-and-economy/visitor-economy/), 3 in 5 adults (63%) visited a heritage site in person in the last 12 months (DCMS, 2023). The most popular heritage visitor sites include visits to parks/gardens with historic features (40%), followed by towns and cities with celebrated histories (39%) (DCMS, 2023). I therefore believe there will be widespread interest in a site of this nature.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **April 26, 2024**
+## Features
+### Navigation bar
+The navigation bar will provide an intuitive way of navigating the site with a consistent appearance across all pages. It is reactive to different screen sizes, with a dropdown on mobile screens and a bar on screens of 768px or higher. 
 
-## Gitpod Reminders
+### Footer. 
+The footer provides links to external sites which will help a user plan their trip. These are the local museum, the local bus company and Tripadvisor. These open in external tabs so users won't be taken away from the page.
+The appearance of the header and footer will help  tie the site together across the pages. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### The Timeline
+The landing page provides a timeline of the most pertinent events. the aim of this site will be to help users contextualise the objects and locations the see with wider historical events they may already know about (such as the dissolution of the monasteries).
 
-`python3 -m http.server`
+### The Gallery
+The gallery will have images of the most prominent locations and objects in the abbey quarter with short explanations of what they are. This will help users understand what the things they see during a visit are.
 
-A blue button should appear to click: _Make Public_,
+### Tour signup form.
+The final page is a form allowing users to signup to a guided tour. The form takes inputs for first and last name and email address. These are mandatory and placeholder text is provided to guide the user. There is also a drop down menu for party size and a calendar with radio buttons to book a day and time. This is currently linked to a 404 page not found. 
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Testing
 
-A blue button should appear to click: _Make Public_,
+The site was tested in Chrome and Firefox. Developer tools was used, particularly with Galaxy Z fold 5, Iphone SE and IPad Mini, as well as the responsiveness feature. The full size version was tested on 11 and 22 inch screens. 
+ 
+I have asked three friends for their feedback on the overall design and usability.
 
-Another blue button should appear to click: _Open Browser_.
+### HTML
+ An unclosed tag was found in testing through the official W3C validator and corrected. All pages were found to be bug free.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### CSS
+No errors were found when passing through the official (Jigsaw) validator
 
-To log into the Heroku toolbelt CLI:
+### Lighthouse
+The site was tested in lighthouse. The site performed poorly in the performance category due to the size of the images used. I compressed and reuploaded these and while this did increase load times it is still slower than I would like. The original images were taken by myself and were I to revisit the site I would like to use smaller images to increase user experience.  The page scored well in all other areas.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Deployment
+The site was deployed via github, after which the testing process was repeated. The link to website is https://ewradcliffe.github.io/Reading-Abbey-Quarter/
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+## Credits
 
-------
+The  code for the header and Footer were taken from the code institute [Love Running Project](https://codeinstitute.net).
 
-## Release History
+The Timeline was taken from [W3 Schools Timeline lesson](https://www.w3schools.com/howto/howto_css_timeline.asp)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Kevin Powell [box-shadow vs filter: drop-shadow()](https://www.youtube.com/watch?v=8Z9zimqUCzA) was used.
 
-**April 26 2024:** Update node version to 16
+Favicon generated by [Favicon generator](https://www.favicon-generator.org/)
 
-**September 20 2023:** Update Python version to 3.9.17.
+The icons in the header and footer were taken from [Font Awesome](https://fontawesome.com/). Fonts are from [Google fonts](https://fonts.google.com/).
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The content is based on content from [Reading Museum](https://www.readingmuseum.org.uk/), [Wikipedia](https://en.wikipedia.org/wiki/Reading_Abbey) and [Berkshire War memorials](http://www.berkswm.org/index.html). 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+The Photos are my own, with background image colouring was done by Tanith Griffiths.
