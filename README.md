@@ -4,6 +4,11 @@ The aim of this website is to provide information for people who are visiting Re
 
 According to [Historic England](https://historicengland.org.uk/research/heritage-counts/heritage-and-economy/visitor-economy/), 3 in 5 adults (63%) visited a heritage site in person in the last 12 months (DCMS, 2023). The most popular heritage visitor sites include visits to parks/gardens with historic features (40%), followed by towns and cities with celebrated histories (39%) (DCMS, 2023). I therefore believe there will be widespread interest in a site of this nature.
 
+## Wireframes
+The below wireframes were created as part of the planning and design process to approximate the layout of both mobile and large screen versions.
+
+![Mobile Version](assets/images/wireframesmobileversion.jpeg)
+![Full Screen Version](assets/images/wireframefullscreen.jpeg)
 ## Features
 ### Navigation bar
 The navigation bar will provide an intuitive way of navigating the site with a consistent appearance across all pages. It is reactive to different screen sizes, with a dropdown on mobile screens and a bar on screens of 768px or higher. 
