@@ -34,15 +34,35 @@ The site was tested in Chrome and Firefox. Developer tools was used, particularl
 I have asked three friends for their feedback on the overall design and usability.
 
 ### HTML
- An unclosed tag was found in testing through the official W3C validator and corrected. All pages were found to be bug free.
+An unclosed tag was found in testing through the official W3C validator and corrected. All pages were found to be bug free.
+
+#### Timeline validation
+ ![Screenshot of index.html validation](assets/images/index.htmlw3validator.png)
+
+#### Gallery page validation
+![Screenshot of gallery.html validation](assets/images/gallery.htmlw3validator.png)
+
+#### Tour signup validation
+![Screenshot of index.html validation](assets/images/toursignup.htmlw3validator.png)
 
 ### CSS
 No errors were found when passing through the official (Jigsaw) validator
+![Screenshot of css validation](assets/images/cssw3cvalidation.png)
+
+One warning was given, as the validator doesn;t check imported stylings of gooogle fonts:
+![Screenshot of css validation warning](assets/images/cssw3cvalidationwarning.png)
 
 ### Lighthouse
-The site was tested in lighthouse. The site performed poorly in the performance category due to the size of the images used. I compressed and reuploaded these and while this did increase load times it is still slower than I would like. The original images were taken by myself and were I to revisit the site I would like to use smaller images to increase user experience.  The page scored well in all other areas.
+The site was tested in lighthouse. The site performed poorly in the performance category due to the size of the images used. I compressed and reuploaded these and while this did increase load times it is still slower than I would like. The original images were taken by myself and were I to revisit the site I would like to use smaller images to increase user experience.  The report also reccomended resizing some <h2> and <h3> elements and the addition of some aria lables. This has been done and the scores have improved as can be seen below.
 
-![screenshot of lighthouse report](assets/images/lighthouse.jpg)
+#### Timeline page
+![screenshot of lighthouse report](assets/images/index.htmllighthouse.png)
+
+#### Gallery page
+![screenshot of lighthouse report](assets/images/gallerylighthouse.png)
+
+#### Tour signup page
+![screenshot of lighthouse report](assets/images/tourlighthouse.png)
 
 ## Deployment
 The site was deployed via github, after which the testing process was repeated. The link to website is https://ewradcliffe.github.io/Reading-Abbey-Quarter/
