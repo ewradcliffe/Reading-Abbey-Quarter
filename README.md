@@ -53,7 +53,7 @@ One warning was given, as the validator doesn;t check imported stylings of gooog
 ![Screenshot of css validation warning](assets/images/cssw3cvalidationwarning.png)
 
 ### Lighthouse
-The site was tested in lighthouse. The site performed poorly in the performance category due to the size of the images used. I compressed and reuploaded these and while this did increase load times it is still slower than I would like. The original images were taken by myself and were I to revisit the site I would like to use smaller images to increase user experience.  The report also reccomended resizing some <h2> and <h3> elements and the addition of some aria lables. This has been done and the scores have improved as can be seen below.
+The site was tested in lighthouse. The site performed poorly in the performance category due to the size of the images used. I compressed and reuploaded these and while this did increase load times it is still slower than I would like. The original images were taken by myself and were I to revisit the site I would like to use smaller images to increase user experience.  The report also reccomended resizing some h2 and h3 elements and the addition of some aria lables. This has been done and the scores have improved as can be seen below.
 
 #### Timeline page
 ![screenshot of lighthouse report](assets/images/index.htmllighthouse.png)
@@ -74,6 +74,8 @@ The application was created on Gitpod using The Code Institute template (https:/
 4. Navigate to the 'Pages' section, select the branch to deploy and save the changes.
 
 The link to website is https://ewradcliffe.github.io/Reading-Abbey-Quarter/
+
+Please note that to save any changes, please save as usual, then 'git add .' followed by 'git commit -m "summerise changes." followed by 'git push' to push changes to github.
 
 ## Credits
 
