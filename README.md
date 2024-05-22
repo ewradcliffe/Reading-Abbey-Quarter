@@ -65,7 +65,15 @@ The site was tested in lighthouse. The site performed poorly in the performance 
 ![screenshot of lighthouse report](assets/images/tourlighthouse.png)
 
 ## Deployment
-The site was deployed via github, after which the testing process was repeated. The link to website is https://ewradcliffe.github.io/Reading-Abbey-Quarter/
+
+The application was created on Gitpod using The Code Institute template (https://github.com/Code-Institute-Org/gitpod-full-template) and VS Code Plugin and deployed to Github with the following steps:
+
+1. Login to Github, otherwise create an account.
+2. Navigate to the repository ('Explore -> 'ewradcliffe/Reading-Abbey-Quarter') or follow the link (https://github.com/ewradcliffe/Reading-Abbey-Quarter).
+3. Once in the repository navigate to the 'Settings' tab.
+4. Navigate to the 'Pages' section, select the branch to deploy and save the changes.
+
+The link to website is https://ewradcliffe.github.io/Reading-Abbey-Quarter/
 
 ## Credits
 
