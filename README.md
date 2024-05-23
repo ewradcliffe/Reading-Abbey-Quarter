@@ -44,6 +44,8 @@ I have chosen a warm colour pallete suitable for a heritage themed website. The 
 
 A single background image of the Maiwand Lion (the most iconic and well known feature of the location) was chosen to give instant recognition and to tie the site together. The image was processed to make it easier to read any text placed on top. 
 
+I have used two Google fonts, Allison and Lora. I have used Allison for the logo as it looks like it was written with a quill. All other text is in Lora for legibility.
+
 
 # The final site
 
@@ -69,7 +71,17 @@ The final page is a form allowing users to signup to a guided tour. The form tak
 
 The site was tested in Chrome and Firefox. Developer tools was used, particularly with Galaxy Z fold 5, Iphone SE and IPad Mini, as well as the responsiveness feature. The full size version was tested on 11 and 22 inch screens. 
  
+### Manual user testing.
 I have asked three friends for their feedback on the overall design and usability.
+
+1. I like the overall look of the website, it feels warm and welcoming.
+2. I would like it to load faster. 
+3. I would like information about hospitality services in the area.
+4. I think this does a good job of identifying locations.
+5. I've lived in the area for years and had no idea some of these places existed.
+6. I like that it links me to local transport services. It'll help me plan a visit.
+
+Given the above feedback I think the website meets it's core objectives, however given the opportunity I would redo the images as they are the main reason for the slightly slow performance. In the longer term I would develop the site to include details of nearby hotels, pubs and resturaunts.
 
 ### HTML
 An unclosed tag was found in testing through the official W3C validator and corrected. All pages were found to be bug free.
